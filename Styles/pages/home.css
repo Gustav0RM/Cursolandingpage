@@ -1,0 +1,28 @@
+.quem-sou-eu
+  {
+  width: 100%;
+  display: block;
+  background-image:url(../../Imagens/fundo-banner.png);
+  }
+.quem-sou-eu .conteudo
+  {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  }
+.quem-sou-eu .conteudo .img
+  {
+  width: 54%;
+  }
+.quem-sou-eu .conteudo .img img
+  {
+  width: auto;
+  max-width: 100%;  
+  }
+.quem-sou-eu .conteudo .texto
+  {
+  width: 45%;
+  }
