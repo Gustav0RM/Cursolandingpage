@@ -1,0 +1,54 @@
+header .conteudo{
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px 0px;
+}
+header .conteudo .logo{
+  width: 155px;
+}
+header .conteudo .menu-lateral{
+  width: calc(100% - 245px);
+  display: inline flex;
+  justify-content: flex-end;
+}
+header .conteudo .menu-lateral .nav{
+  display: inline-flex;
+  justify-content: end;
+}
+header .conteudo .menu-lateral .nav li{
+  margin-left: 90px;
+  position: relative;
+}
+header .conteudo .menu-lateral .nav li:first-child{
+  margin-left: 0px;
+}
+header .conteudo .menu-lateral .nav li::after{  
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  width: 0%;
+  height: 3px;
+  background-color: white;
+  content: ' ';
+  transition: .4s;
+}
+header .conteudo .menu-lateral .nav li:hover:after{ 
+  width: 100%;
+}
+header .conteudo .menu-lateral .redes-sociais{
+  width: max-content;
+  display: inline-flex;
+  justify-content: end;
+  margin-left: 80px;
+  align-items: center;
+}
+header .conteudo .menu-lateral .redes-sociais a{
+  margin-left: 15px;
+}
+header .conteudo .menu-lateral .redes-sociais a i{
+  font-size: 20px;
+}
+
