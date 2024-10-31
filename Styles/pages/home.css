@@ -3,6 +3,8 @@
   width: 100%;
   display: block;
   background-image:url(../../Imagens/fundo-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 .quem-sou-eu .conteudo
   {
@@ -25,4 +27,29 @@
 .quem-sou-eu .conteudo .texto
   {
   width: 45%;
+  }
+.quem-sou-eu .conteudo .texto h2
+  {
+  font: italic 500 48px "Montserrat", sans-serif;
+  margin-bottom: 65px;
+  position: relative;
+  }
+.quem-sou-eu .conteudo .texto h2:after
+  {
+  width: 150px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  content: ' ';
+  bottom: -10px;
+  left: 0px;
+  }
+.quem-sou-eu .conteudo .descriçao p
+  {
+  line-height: 26px;
+  margin-bottom: 30px;
+  }
+.quem-sou-eu .conteudo .descriçao p:last-child
+  {
+  margin-bottom: 60px;
   }
