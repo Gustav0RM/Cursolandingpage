@@ -1,3 +1,8 @@
+header
+  {
+  position: relative;
+  z-index: 2;  
+  }
 header .conteudo
   {
   width: 100%;
@@ -52,7 +57,7 @@ header .conteudo .menu-lateral .nav li::after
   content: ' ';
   transition: .4s;
   }
-header .conteudo .menu-lateral .nav li:hover:after
+header .conteudo .menu-lateral .nav li:hover::after
   { 
   width: 100%;
   }

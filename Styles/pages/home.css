@@ -17,16 +17,19 @@
   }
 .quem-sou-eu .conteudo .img
   {
-  width: 54%;
+  width: 100%;
   }
 .quem-sou-eu .conteudo .img img
   {
   width: auto;
-  max-width: 100%;  
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;  
   }
 .quem-sou-eu .conteudo .texto
   {
-  width: 45%;
+  width: 100%;
+  margin-bottom: 30px;
   }
 .quem-sou-eu .conteudo .texto h2
   {
@@ -52,4 +55,16 @@
 .quem-sou-eu .conteudo .descriçao p:last-child
   {
   margin-bottom: 60px;
+  }
+@media only screen and (min-width: 1024px) /* Configurações de exibição em telas maiores que 1024px*/
+  {
+  .quem-sou-eu .conteudo .img
+    {
+    width: 54%;
+    }
+  .quem-sou-eu .conteudo .texto
+    {
+    width: 45%;
+    margin: 0px 0px 0px;
+    }
   }
